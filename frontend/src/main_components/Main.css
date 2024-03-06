@@ -1,0 +1,256 @@
+#light.main {
+    margin-left: 17.5%;
+    display: flex;
+    flex: 1 1 auto;
+    width: 58.5%;
+    background-color: transparent;
+}
+
+#dark.main {
+    margin-left: 17.5%;
+    display: flex;
+    flex: 1 1 auto;
+    width: 58.5%;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#777777, #59594F, #777777);
+    border-radius: 12px;
+}
+
+.child_element {
+    height: 447px;
+    width: 100%;
+}
+
+.copyright {
+    background: transparent;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 0.9%;
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.chart_box {
+    width: 700px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    height: 50%;
+}
+
+.stories {
+    color: darkgoldenrod;
+}
+
+#light.stories .blank_space {
+    background-color: #aca496;
+    width: 50%;
+    color: transparent;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+#dark.stories .blank_space {
+    background-color: #777777;
+    width: 50%;
+    color: transparent;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+#light.crypto_dropdown {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: darkgoldenrod;
+    background: linear-gradient(#DCDCDC, #E2E2E2, #E5E5E5);
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+#dark.crypto_dropdown {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: darkgoldenrod;
+    background: linear-gradient(#706859, #776E5E, #827968);
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+#light.crypto_dropdown_content {
+    background-color: lightgray;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+#dark.crypto_dropdown_content {
+    background-color: #59594F;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+#light.crypto_button {
+    border-radius: 8px;
+    color: darkgoldenrod;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(#DCDCDC, #E2E2E2, #E5E5E5);
+    border: 2px #777777;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#dark.crypto_button {
+    border-radius: 8px;
+    color: darkgoldenrod;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(#706859, #776E5E, #827968);
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px #777777;
+}
+
+.chart_data {
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-right: 2%;
+    color: darkgoldenrod;
+}
+
+.chart_data_container {
+    margin-left: 6%;
+}
+
+.chart-data_info {
+    color: ghostwhite;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    margin-left: 0.5%;
+}
+
+.child_element .main_search {
+    display: flex;
+    justify-self: right;
+    color: ghostwhite;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: #aca496;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+}
+
+.news_box {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 1%;
+}
+
+#light.news_search {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(#DCDCDC, #E2E2E2, #E5E5E5);
+    border: 3px solid gold;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    color: gold;
+    outline: none;
+    transition: .5s;
+}
+
+#dark.news_search {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    background: #776E5E;
+    border: 3px solid goldenrod;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    color: goldenrod;
+    outline: none;
+    transition: .5s;
+}
+
+#light.news_box:hover input {
+    width: 350px;
+    background: linear-gradient(#DCDCDC, #E2E2E2, #E5E5E5);
+    border-radius: 10px;
+}
+
+#dark.news_box:hover input {
+    width: 350px;
+    background: linear-gradient(#706859, #776E5E, #827968);
+    border-radius: 10px;
+}
+
+#light.news_box .search_icon {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: gold;
+    transition: .2s;
+    width: 27px;
+    height: 27px;
+    border-radius: 12px;
+    background: linear-gradient(#DCDCDC, #E2E2E2, #E5E5E5);
+}
+
+#dark.news_box .search_icon {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: goldenrod;
+    transition: .2s;
+    width: 27px;
+    height: 27px;
+    border-radius: 12px;
+    background: linear-gradient(#706859, #776E5E, #827968);
+}
+
+.news_box:hover .search_icon {
+    opacity: 0;
+    z-index: -1;
+}
+
+::placeholder {
+    color: goldenrod;
+}

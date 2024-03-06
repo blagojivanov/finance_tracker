@@ -1,0 +1,10 @@
+.hidden_element {
+    position: absolute;
+    background-image: url("../images/images_png/Curcuit_Board.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 1.85%;
+    height: 85%;
+    width: 16%;
+    background-color: transparent;
+}

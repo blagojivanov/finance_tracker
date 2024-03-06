@@ -1,0 +1,75 @@
+.advertisement_card {
+    width: 320px;
+    height: 180px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.1), -5px -5px 30px 7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.4s;
+    position: absolute;
+    margin-left: 77.8%;
+    margin-top: 14%;
+}
+
+.advertisement_card_1 {
+    width: 320px;
+    height: 180px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.1), -5px -5px 30px 7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.4s;
+    position: absolute;
+    margin-left: 77.8%;
+    margin-top: 1.25%;
+}
+
+.advertisement_card .advertisement_card_image {
+    width: inherit;
+    height: inherit;
+}
+
+.advertisement_card_1 .advertisement_card_image {
+    width: inherit;
+    height: inherit;
+}
+
+.advertisement_card .advertisement_card_image .adds_image {
+    width: 100%;
+    height: 100%;
+    object-fit: unset;
+}
+
+.advertisement_card_1 .advertisement_card_image .adds_image {
+    width: 100%;
+    height: 100%;
+    object-fit: unset;
+}
+
+.advertisement_card:hover {
+    transform: scale(0.97, 0.97);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.advertisement_card .advertisement_card_title {
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -55px;
+    height: 40px;
+}
+
+.advertisement_card_1 .advertisement_card_title {
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -55px;
+    height: 40px;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        flex-direction: column;
+    }
+}

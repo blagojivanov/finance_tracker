@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+#light.code_body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 30%;
+}
+
+#dark.code_body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 30%;
+}
+
+#light.code_container {
+    background-color: #aca496;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#dark.code_container {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.code_container p {
+    margin-top: 1%;
+}
+
+#light.code_container h2 {
+    color: goldenrod;
+}
+
+#dark.code_container h2 {
+    color: goldenrod;
+}
+
+.password_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+#light.password_container .code {
+    caret-color: transparent;
+    background-color: #bababa;
+    border-radius: 10px;
+    border: 1px solid #1F1F1E;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    width: 75px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#dark.password_container .code {
+    caret-color: transparent;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border: 1px solid #eee;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    width: 75px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .password_container {
+        flex-wrap: wrap;
+    }
+
+    .password_container .code {
+        font-size: 24px;
+        height: 50px;
+        max-width: 50px;
+        font-weight: bold;
+    }
+}
+
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.code:valid {
+    border-color: goldenrod;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    font-family: "Poppins", sans-serif;
+    min-width: 400px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 0 20px 0;
+    padding: 0.775rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+}
+
+.btn_primary {
+    color: #fff;
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+
+.code_back {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+

@@ -1,0 +1,742 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello!",
+        "How can I assist you?"
+      ]
+    },
+    {
+      "tag": "Rabota",
+      "patterns": [
+        "Opravime se",
+        "Se opravivme",
+        "Opravime ga",
+        "Opravi",
+        "Oprav gi"
+      ],
+      "responses": [
+        "Se opravivte bogami",
+        "Opravi se"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "what's your age",
+        "age"
+      ],
+      "responses": [
+        "I can't age.",
+        "Robots don't age."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see ya",
+        "bye",
+        "have a good day",
+        "goodbye",
+        "have a great day",
+        "chat soon"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name",
+        "name",
+        "how can i call you"
+      ],
+      "responses": [
+        "I'm Bitty!",
+        "I'm Bitty, the assistant"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it",
+        "grateful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Tell me the weather forecast",
+        "Weather report"
+      ],
+      "responses": [
+        "Not a weather expert, sorry",
+        "Can't provide real-time weather."
+      ]
+    },
+    {
+      "tag": "blockchainTech",
+      "patterns": [
+        "Blockchain applications",
+        "Blockchain in finance",
+        "Smart contracts"
+      ],
+      "responses": [
+        "Blockchain is used in supply chain, healthcare, voting, and more.",
+        "Blockchain in finance means more efficient and transparent systems.",
+        "Smart contracts are self-executing agreements with code-defined terms."
+      ]
+    },
+    {
+      "tag": "businessStrategies",
+      "patterns": [
+        "Start a crypto business",
+        "Crypto business models",
+        "ICO concept in business"
+      ],
+      "responses": [
+        "Starting a crypto business involves compliance, tech, and research.",
+        "Crypto business models range from exchanges to wallets.",
+        "ICOs raise capital for crypto startups through token sales."
+      ]
+    },
+    {
+      "tag": "marketAnalysis",
+      "patterns": [
+        "Crypto market analysis",
+        "Market indicators",
+        "Market sentiment analysis"
+      ],
+      "responses": [
+        "Analyze crypto markets with charts, trends, and indicators.",
+        "Indicators include moving averages, RSI, MACD, and more.",
+        "Market sentiment analyzes public sentiment and news for market direction."
+      ]
+    },
+    {
+      "tag": "BitcoinPrice",
+      "patterns": [
+        "What's the current price of Bitcoin?",
+        "Bitcoin price today",
+        "BTC price"
+      ],
+      "responses": [
+        "The current price of Bitcoin is [Price].",
+        "Bitcoin is trading at [Price] right now."
+      ]
+    },
+    {
+      "tag": "Altcoins",
+      "patterns": [
+        "Tell me about popular altcoins",
+        "Altcoin market",
+        "Investing in altcoins"
+      ],
+      "responses": [
+        "Popular altcoins include Ethereum, Litecoin, and Ripple.",
+        "Altcoins offer diverse investment opportunities in the crypto market."
+      ]
+    },
+    {
+      "tag": "CryptoInvesting",
+      "patterns": [
+        "Best crypto investments",
+        "Diversify crypto portfolio",
+        "Crypto risk management"
+      ],
+      "responses": [
+        "Diversify your portfolio to manage risk.",
+        "The best crypto investments depend on your goals."
+      ]
+    },
+    {
+      "tag": "BlockchainTechnology",
+      "patterns": [
+        "Explain blockchain technology",
+        "How does blockchain work?",
+        "Blockchain in supply chain"
+      ],
+      "responses": [
+        "Blockchain is a decentralized, distributed ledger technology.",
+        "It's used in various industries, including supply chain management."
+      ]
+    },
+    {
+      "tag": "CryptoTrading",
+      "patterns": [
+        "Crypto trading strategies",
+        "How to trade cryptocurrencies",
+        "Crypto trading platforms"
+      ],
+      "responses": [
+        "Trading strategies include day trading, swing trading, and HODLing.",
+        "Popular trading platforms are Binance, Coinbase, and Kraken."
+      ]
+    },
+    {
+      "tag": "CryptocurrencyExchanges",
+      "patterns": [
+        "Recommend a cryptocurrency exchange",
+        "Which exchange is best?",
+        "Crypto exchange reviews"
+      ],
+      "responses": [
+        "Consider exchanges like Binance, Coinbase, and Kraken for trading.",
+        "Exchange reviews can help you make an informed choice."
+      ]
+    },
+    {
+      "tag": "CryptocurrencyNews",
+      "patterns": [
+        "Latest crypto news",
+        "Cryptocurrency market updates",
+        "Crypto news sources"
+      ],
+      "responses": [
+        "Stay updated with crypto news from sources like CoinDesk and CoinTelegraph.",
+        "The latest news impacts the crypto market."
+      ]
+    },
+    {
+      "tag": "CryptocurrencyRegulations",
+      "patterns": [
+        "Crypto regulations in [Country/Region]",
+        "Is crypto legal?",
+        "KYC and AML in crypto"
+      ],
+      "responses": [
+        "Crypto regulations vary by country. Consult local authorities for legal information.",
+        "KYC and AML are vital but challenging aspects in the crypto industry."
+      ]
+    },
+    {
+      "tag": "CryptoSecurity",
+      "patterns": [
+        "How to secure my crypto holdings",
+        "Crypto wallet security",
+        "Protecting against scams"
+      ],
+      "responses": [
+        "Use hardware wallets for enhanced security.",
+        "Beware of phishing scams and always double-check wallet addresses."
+      ]
+    },
+    {
+      "tag": "InitialCoinOffering",
+      "patterns": [
+        "What's an ICO?",
+        "Upcoming ICOs",
+        "Investing in ICOs"
+      ],
+      "responses": [
+        "An Initial Coin Offering (ICO) is a way for projects to raise funds through token sales.",
+        "Investing in ICOs requires careful research and due diligence."
+      ]
+    },
+    {
+      "tag": "CryptocurrencyWallets",
+      "patterns": [
+        "Types of crypto wallets",
+        "Best crypto wallet",
+        "Setting up a wallet"
+      ],
+      "responses": [
+        "Wallet types include hardware, software, and paper wallets.",
+        "Choosing the best wallet depends on your needs and preferences."
+      ]
+    },
+    {
+      "tag": "DecentralizedFinance",
+      "patterns": [
+        "What is DeFi?",
+        "DeFi platforms",
+        "DeFi lending"
+      ],
+      "responses": [
+        "DeFi is a decentralized financial ecosystem built on blockchain technology.",
+        "DeFi platforms offer lending, borrowing, and trading services."
+      ]
+    },
+    {
+      "tag": "NFTs",
+      "patterns": [
+        "Tell me about NFTs",
+        "NFT art",
+        "Collectible NFTs"
+      ],
+      "responses": [
+        "NFTs are non-fungible tokens used for unique digital assets like art and collectibles."
+      ]
+    },
+    {
+      "tag": "CryptoMining",
+      "patterns": [
+        "What is crypto mining?",
+        "Mining hardware",
+        "Mining profitability"
+      ],
+      "responses": [
+        "Crypto mining involves solving complex mathematical problems to validate transactions.",
+        "Mining profitability depends on factors like hardware and electricity costs."
+      ]
+    },
+    {
+      "tag": "CryptoTaxation",
+      "patterns": [
+        "Crypto taxes",
+        "Tax implications of crypto",
+        "Crypto tax reporting"
+      ],
+      "responses": [
+        "Consult with a tax professional to understand the tax implications of your crypto transactions.",
+        "Accurate tax reporting is important for compliance."
+      ]
+    },
+    {
+      "tag": "CryptocurrencyHistory",
+      "patterns": [
+        "History of Bitcoin",
+        "First cryptocurrency",
+        "Crypto market evolution"
+      ],
+      "responses": [
+        "Bitcoin, created by Satoshi Nakamoto, was the first cryptocurrency in 2009.",
+        "The crypto market has evolved significantly since its inception."
+      ]
+    },
+    {
+      "tag": "CryptocurrencyScams",
+      "patterns": [
+        "Common crypto scams",
+        "How to avoid crypto scams",
+        "Recognizing Ponzi schemes"
+      ],
+      "responses": [
+        "Common scams include Ponzi schemes, phishing, and fake ICOs.",
+        "Be cautious and verify information to avoid falling victim to scams."
+      ]
+    },
+    {
+      "tag": "CryptocurrencyFuturism",
+      "patterns": [
+        "Future of cryptocurrency",
+        "Crypto trends",
+        "Blockchain in the coming years"
+      ],
+      "responses": [
+        "The future of cryptocurrency holds promise in various industries, including finance and technology.",
+        "Keep an eye on emerging trends like DeFi and NFTs."
+      ]
+    },
+    {
+      "tag": "StockMarketBasics",
+      "patterns": [
+        "What is the stock market?",
+        "Stock market basics",
+        "How does stock trading work?"
+      ],
+      "responses": [
+        "The stock market is where shares of publicly traded companies are bought and sold.",
+        "Stock trading involves buying and selling shares of company stock."
+      ]
+    },
+    {
+      "tag": "StockTradingStrategies",
+      "patterns": [
+        "Day trading tips",
+        "Long-term stock investments",
+        "Swing trading strategies"
+      ],
+      "responses": [
+        "Day trading involves making quick, short-term trades within a single trading day.",
+        "Long-term investing focuses on holding stocks for an extended period.",
+        "Swing trading looks to capitalize on short- to medium-term price movements."
+      ]
+    },
+    {
+      "tag": "StockPicking",
+      "patterns": [
+        "How to pick stocks",
+        "Stock analysis techniques",
+        "Value investing"
+      ],
+      "responses": [
+        "Stock picking involves fundamental and technical analysis.",
+        "Value investing seeks undervalued stocks with growth potential."
+      ]
+    },
+    {
+      "tag": "Dividends",
+      "patterns": [
+        "What are dividends?",
+        "Dividend investing",
+        "Dividend yield"
+      ],
+      "responses": [
+        "Dividends are payments made to shareholders by a company out of its earnings.",
+        "Dividend investing focuses on stocks that provide regular dividend payments.",
+        "Dividend yield is the annual dividend income as a percentage of the stock's price."
+      ]
+    },
+    {
+      "tag": "StocksVsBonds",
+      "patterns": [
+        "Stocks vs. bonds",
+        "Investing in bonds",
+        "Risk and return"
+      ],
+      "responses": [
+        "Stocks offer higher potential returns but come with greater risk.",
+        "Bonds are generally considered safer but offer lower returns.",
+        "Balancing stocks and bonds depends on your risk tolerance and financial goals."
+      ]
+    },
+    {
+      "tag": "StockMarketVolatility",
+      "patterns": [
+        "Stock market volatility",
+        "Volatility index",
+        "Handling market ups and downs"
+      ],
+      "responses": [
+        "Volatility measures the variability of stock prices over time.",
+        "The VIX (Volatility Index) gauges market volatility and fear.",
+        "Diversification and a long-term perspective can help manage market fluctuations."
+      ]
+    },
+    {
+      "tag": "StockMarketRegulations",
+      "patterns": [
+        "Stock market regulations",
+        "Insider trading laws",
+        "SEC regulations"
+      ],
+      "responses": [
+        "Stock markets are regulated to maintain fairness and transparency.",
+        "Insider trading laws prevent trading based on non-public information.",
+        "The SEC (Securities and Exchange Commission) enforces securities regulations."
+      ]
+    },
+    {
+      "tag": "StockMarketAnalysis",
+      "patterns": [
+        "Technical analysis",
+        "Fundamental analysis",
+        "Market sentiment analysis"
+      ],
+      "responses": [
+        "Technical analysis examines historical price and volume data to predict future trends.",
+        "Fundamental analysis assesses a company's financial health and value.",
+        "Market sentiment analysis gauges public sentiment and news for market direction."
+      ]
+    },
+    {
+      "tag": "RetirementPlanning",
+      "patterns": [
+        "Retirement planning",
+        "Saving for retirement",
+        "Retirement investment strategies"
+      ],
+      "responses": [
+        "Planning for retirement is essential to secure your financial future.",
+        "Diversifying your investments is crucial for retirement savings."
+      ]
+    },
+    {
+      "tag": "PassiveIncome",
+      "patterns": [
+        "Generating passive income",
+        "Passive income ideas",
+        "Income streams"
+      ],
+      "responses": [
+        "Passive income involves earning money with minimal effort or active involvement.",
+        "Consider real estate, dividend stocks, or online businesses for passive income."
+      ]
+    },
+    {
+      "tag": "FinancialGoals",
+      "patterns": [
+        "Setting financial goals",
+        "Long-term financial planning",
+        "Goal-oriented investing"
+      ],
+      "responses": [
+        "Setting clear financial goals helps you stay on track and make informed decisions.",
+        "Long-term financial planning is key to achieving your objectives."
+      ]
+    },
+    {
+      "tag": "WealthBuilding",
+      "patterns": [
+        "Building wealth",
+        "Wealth accumulation",
+        "Growing your net worth"
+      ],
+      "responses": [
+        "Wealth building involves accumulating assets and investments over time.",
+        "Consistent saving and smart investing are essential for growing your net worth."
+      ]
+    },
+    {
+      "tag": "Entrepreneurship",
+      "patterns": [
+        "Starting a business",
+        "Entrepreneurial ventures",
+        "Small business success"
+      ],
+      "responses": [
+        "Entrepreneurship offers opportunities to create wealth and financial independence.",
+        "Consider market research and a solid business plan for success."
+      ]
+    },
+    {
+      "tag": "RealEstateInvesting",
+      "patterns": [
+        "Real estate investing",
+        "Property investments",
+        "Real estate market trends"
+      ],
+      "responses": [
+        "Real estate investing can provide rental income and potential appreciation.",
+        "Monitor market trends and consider location when investing in properties."
+      ]
+    },
+    {
+      "tag": "StockMarketInvesting",
+      "patterns": [
+        "Investing in the stock market",
+        "Stock market tips",
+        "Equity investments"
+      ],
+      "responses": [
+        "Stock market investing can offer long-term wealth growth.",
+        "Diversification and research are key to successful stock market investments."
+      ]
+    },
+    {
+      "tag": "SideHustles",
+      "patterns": [
+        "Side hustles",
+        "Part-time income",
+        "Gig economy jobs"
+      ],
+      "responses": [
+        "Side hustles can supplement your income and boost savings.",
+        "Explore opportunities like freelance work or gig economy jobs."
+      ]
+    },
+    {
+      "tag": "Budgeting",
+      "patterns": [
+        "Effective budgeting",
+        "Budgeting tips",
+        "Budget for savings"
+      ],
+      "responses": [
+        "Effective budgeting helps you manage expenses and save money.",
+        "Allocate a portion of your income for savings and investments."
+      ]
+    },
+    {
+      "tag": "FinancialEducation",
+      "patterns": [
+        "Financial education",
+        "Investment knowledge",
+        "Money management skills"
+      ],
+      "responses": [
+        "Financial education is crucial for making informed decisions and achieving financial goals.",
+        "Continuous learning about investments and money management is essential."
+      ]
+    },
+    {
+      "tag": "WealthPreservation",
+      "patterns": [
+        "Preserving wealth",
+        "Protecting investments",
+        "Wealth management"
+      ],
+      "responses": [
+        "Wealth preservation strategies include risk management and asset protection.",
+        "Professional wealth management services can help safeguard your investments."
+      ]
+    },
+    {
+      "tag": "InvestmentDiversification",
+      "patterns": [
+        "Diversifying investments",
+        "Portfolio diversification",
+        "Asset allocation"
+      ],
+      "responses": [
+        "Diversification reduces risk by spreading investments across various asset classes.",
+        "Asset allocation is a key principle in achieving a balanced portfolio."
+      ]
+    },
+    {
+      "tag": "IncomeGeneration",
+      "patterns": [
+        "Generating income",
+        "Boosting earnings",
+        "Income-generating assets"
+      ],
+      "responses": [
+        "Increasing income can be achieved through investments and multiple income streams.",
+        "Consider dividend stocks, rental properties, or online businesses for income generation."
+      ]
+    },
+    {
+      "tag": "Headlines",
+      "patterns": [
+        "Headlines",
+        "Top news",
+        "Front-page stories"
+      ],
+      "responses": [
+        "Here are the day's top headlines."
+      ]
+    },
+    {
+      "tag": "Politics",
+      "patterns": [
+        "Politics",
+        "Political news",
+        "Government updates"
+      ],
+      "responses": [
+        "Stay politically informed."
+      ]
+    },
+    {
+      "tag": "FinancialNews",
+      "patterns": [
+        "Financial news",
+        "Money matters",
+        "Finance updates"
+      ],
+      "responses": [
+        "Stay in the know about finance."
+      ]
+    },
+    {
+      "tag": "TechnologyNews",
+      "patterns": [
+        "Technology news",
+        "Tech updates",
+        "Innovations in tech"
+      ],
+      "responses": [
+        "Discover the latest in technology."
+      ]
+    },
+    {
+      "tag": "CrimeReports",
+      "patterns": [
+        "Crime reports",
+        "Safety updates",
+        "Law enforcement news"
+      ],
+      "responses": [
+        "Stay informed about safety and law enforcement."
+      ]
+    },
+    {
+      "tag": "EducationNews",
+      "patterns": [
+        "Education news",
+        "Learning updates",
+        "Academic insights"
+      ],
+      "responses": [
+        "Stay informed about education and learning."
+      ]
+    },
+    {
+      "tag": "SocialIssues",
+      "patterns": [
+        "Social issues",
+        "Community matters",
+        "Societal challenges"
+      ],
+      "responses": [
+        "Stay connected to societal issues and community matters."
+      ]
+    },
+    {
+      "tag": "RealEstate",
+      "patterns": [
+        "Real estate",
+        "Property updates",
+        "Housing market"
+      ],
+      "responses": [
+        "Explore the real estate market."
+      ]
+    },
+    {
+      "tag": "CryptoNews",
+      "patterns": [
+        "Crypto news",
+        "Blockchain updates",
+        "Digital currency"
+      ],
+      "responses": [
+        "Stay informed about cryptocurrencies and blockchain technology."
+      ]
+    },
+    {
+      "tag": "TechnologyTrends",
+      "patterns": [
+        "Technology trends",
+        "Innovations in tech",
+        "Tech insights"
+      ],
+      "responses": [
+        "Stay up to date with technology trends and innovations."
+      ]
+    },
+    {
+      "tag": "EnvironmentalIssues",
+      "patterns": [
+        "Environmental issues",
+        "Eco-conscious updates",
+        "Sustainability"
+      ],
+      "responses": [
+        "Stay connected to environmental issues and eco-conscious updates."
+      ]
+    },
+    {
+      "tag": "InvestmentRisks",
+      "patterns": [
+        "Understanding investment risks",
+        "Risk management strategies",
+        "Risk and return trade-offs"
+      ],
+      "responses": [
+        "Understanding investment risks helps you make informed decisions."
+      ]
+    }
+  ]
+}

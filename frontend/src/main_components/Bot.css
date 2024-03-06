@@ -1,0 +1,230 @@
+#light.bot {
+    height: 32.5%;
+    width: 21.5%;
+    position: absolute;
+    margin-left: 77.8%;
+    margin-top: 27%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(#DCDCDC, #E2E2E2, #E5E5E5);
+}
+
+#dark.bot {
+    height: 32.5%;
+    width: 21.5%;
+    position: absolute;
+    margin-left: 77.8%;
+    margin-top: 27%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(#706859, #776E5E, #827968);
+}
+
+.bot_container .bot_div {
+    display: flex;
+    position: relative;
+}
+
+.bot_image {
+    width: 70px;
+    height: 90px;
+    z-index: 1;
+    margin-left: 2%;
+}
+
+.bot_name {
+    font-weight: 500;
+    font-size: 1.3em;
+    color: ghostwhite;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    z-index: 1;
+}
+
+.bot_status {
+    font-weight: 500;
+    color: green;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 25%;
+    margin-top: 11%;
+    padding: 1%;
+    z-index: 1;
+    position: absolute;
+}
+
+#light.bot_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#dark.bot_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.human_message, .bot_message {
+    max-width: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#light.human_message {
+    background: #aca496;
+    color: #1F1F1E;
+    align-self: flex-end;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#dark.human_message {
+    background: ghostwhite;
+    color: #1F1F1E;
+    align-self: flex-end;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#light.bot_message {
+    background: #1F1F1E;
+    color: ghostwhite;
+    align-self: flex-start;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#dark.bot_message {
+    background: #aca496;
+    color: ghostwhite;
+    align-self: flex-start;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#light.input_box_2 {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 13.5%;
+    margin-bottom: 2.5%;
+    border-top: 2px solid darkgoldenrod;
+}
+
+#dark.input_box_2 {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 13.5%;
+    margin-bottom: 2.5%;
+    border-top: 2px solid darkgoldenrod;
+}
+
+#light.input_box_2 .input_type {
+    color: ghostwhite;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 2%;
+    padding-left: 2%;
+    height: 23px;
+    margin-top: 2.5%;
+    background-color: #aca496;
+    width: 70%;
+    position: absolute;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+}
+
+#dark.input_box_2 .input_type {
+    color: #1F1F1E;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 2%;
+    padding-left: 2%;
+    height: 23px;
+    margin-top: 2.5%;
+    background-color: ghostwhite;
+    width: 70%;
+    position: absolute;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+}
+
+.input_box_2 .bot_submit {
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: darkgoldenrod;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 73.5%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.bot_svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.bot_container .bot_path {
+    stroke: none;
+    fill: darkgoldenrod;
+    z-index: -1;
+}
+
+.bot_image {
+    transform: translateY(-10%);
+    animation: floater 2.5s infinite ease-in-out;
+}
+
+@keyframes floater {
+    0%, 100% {
+        transform: translateY(-10%);
+    }
+    50% {
+        transform: translateY(-5%);
+    }
+}
+
+.bot_name .bot_text_2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    height: 26%;
+    margin-top: 2.5%;
+    width: 30%;
+    background-color: darkgoldenrod;
+    border-left: 2px solid #373735;
+    animation: botAnimate 5s steps(12) infinite;
+}
+
+@keyframes botAnimate {
+    40%, 60% {
+        left: 50%;
+    }
+}

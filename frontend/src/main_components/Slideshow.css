@@ -1,0 +1,59 @@
+.slideshow {
+    overflow: hidden;
+    max-width: 500px;
+    width: 320px;
+    height: 195px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 77.8%;
+    margin-top: 14%;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+.slide {
+    display: inline-block;
+    height: 170px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.slideshowDots {
+    text-align: center;
+}
+
+.slideshowDot {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 2px 5px 0;
+    background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+    background-color: goldenrod;
+}
+
+.advertisement_card_2 {
+    width: 330px;
+    height: 173px;
+    cursor: pointer;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.advertisement_card_2 .advertisement_card_image {
+    width: inherit;
+    height: inherit;
+}
+
+.advertisement_card_2 .advertisement_card_image .adds_image {
+    width: 100%;
+    height: 100%;
+    object-fit: unset;
+}

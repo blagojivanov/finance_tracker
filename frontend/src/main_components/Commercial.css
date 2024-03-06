@@ -1,0 +1,30 @@
+.user_icon {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    margin-left: 42.35%;
+    margin-top: 0.2%;
+}
+
+.web_commercial {
+    width: 100%;
+    background-color: goldenrod;
+    cursor: pointer;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#light.web_text {
+    font-size: 13px;
+    margin-left: 43.5%;
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1E;
+    font-weight: 300;
+}
+
+#dark.web_text {
+    font-size: 13px;
+    margin-left: 43.5%;
+    font-family: "Poppins", sans-serif;
+    color: ghostwhite;
+    font-weight: 300;
+}

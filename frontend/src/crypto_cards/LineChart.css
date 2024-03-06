@@ -1,0 +1,11 @@
+#light.chart_container {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#DCDCDC, #E2E2E2, #E5E5E5);
+}
+
+#dark.chart_container {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#706859, #776E5E, #827968);
+}

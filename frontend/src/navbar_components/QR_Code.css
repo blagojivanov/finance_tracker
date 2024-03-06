@@ -1,0 +1,122 @@
+#light.code {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#dark.code {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.drop_down {
+    position: absolute;
+    margin-left: 84.5%;
+    margin-top: 0.2%;
+}
+
+#light.drop_down_content {
+    display: none;
+    position: absolute;
+    min-width: 155px;
+    min-height: 230px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    background-position-x: center;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 2px solid #373735;
+    z-index: 2;
+    padding: 5%;
+    background-color: ghostwhite;
+}
+
+#dark.drop_down_content {
+    display: none;
+    position: absolute;
+    min-width: 155px;
+    min-height: 230px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    background-position-x: center;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 2px solid #373735;
+    z-index: 2;
+    padding: 5%;
+    background-color: #1F1F1E;
+}
+
+.drop_down:hover #light.drop_down_content {
+    display: flex;
+    margin-right: 30%;
+}
+
+.drop_down:hover #dark.drop_down_content {
+    display: flex;
+    margin-right: 30%;
+}
+
+#light.drop_down_text_1 {
+    position: absolute;
+    margin: 98% 7.5%;
+    font-size: 13px;
+    font-family: BinancePlex, Arial, sans-serif;
+    color: #1F1F1E;
+}
+
+#dark.drop_down_text_1 {
+    position: absolute;
+    margin: 98% 7.5%;
+    font-size: 13px;
+    font-family: BinancePlex, Arial, sans-serif;
+    color: ghostwhite;
+}
+
+#light.drop_down_text_2 {
+    position: absolute;
+    margin: 108% 20%;
+    font-size: 13px;
+    font-family: BinancePlex, Arial, sans-serif;
+    color: #1F1F1E;
+}
+
+#dark.drop_down_text_2 {
+    position: absolute;
+    margin: 108% 20%;
+    font-size: 13px;
+    font-family: BinancePlex, Arial, sans-serif;
+    color: ghostwhite;
+}
+
+#light.drop_down_border {
+    width: 90%;
+    height: 7.5%;
+    display: flex;
+    background-color: goldenrod;
+    border-radius: 10px;
+    margin-top: 120%;
+    margin-left: 3%;
+    margin-right: 2.5%;
+    position: absolute;
+}
+
+#dark.drop_down_border {
+    width: 90%;
+    height: 7.5%;
+    display: flex;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    margin-top: 120%;
+    margin-left: 3%;
+    margin-right: 2.5%;
+    position: absolute;
+}
+
+.qr_image {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}

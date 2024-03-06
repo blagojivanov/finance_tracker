@@ -1,0 +1,282 @@
+#light.about {
+    padding: 15px;
+    background-color: ghostwhite;
+    min-height: 100vh;
+}
+
+#dark.about {
+    padding: 15px;
+    background-color: #59594F;
+    min-height: 100vh;
+}
+
+#light.about_section {
+    background-color: #aca496;
+    border: 3px solid goldenrod;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+    background-image: url("../images/images_png/about_background.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: 105% 105%;
+    height: 715px !important;
+}
+
+#dark.about_section {
+    background-color: #1F1F1E;
+    border: 3px solid darkgoldenrod;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
+    background-image: url("../images/images_png/about_background.png");
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: 105% 105%;
+    height: 715px !important;
+}
+
+#light.team_item {
+    background-color: #E5E4E2;
+    text-align: center;
+    border-radius: 8px 8px;
+    padding: 1px 5px 30px 1px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    border: 3px solid goldenrod;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+    height: 90%;
+}
+
+#dark.team_item {
+    background-color: #59594F;
+    text-align: center;
+    border-radius: 8px 8px;
+    padding: 1px 5px 30px 1px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    border: 3px solid darkgoldenrod;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
+    height: 90%;
+}
+
+#light.team_item:hover {
+    background: ghostwhite;
+}
+
+#dark.team_item:hover {
+    background: #aca496;
+}
+
+.team_image {
+    max-width: 140px;
+    padding: 5px 5px;
+    background-color: #DEDEDE;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    border-radius: 50%;
+}
+
+.about_row {
+    display: flex;
+    margin-left: 16%;
+}
+
+.col-sm-6.col-md-4 {
+    width: 40%;
+    margin-top: 8%;
+    margin-right: 18%;
+}
+
+.team_item h3 {
+    margin: 20px 0 1px 0;
+    color: darkgoldenrod;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.section_subtitle_1 {
+    white-space: pre-line;
+    color: #aca496;
+    margin-left: 20%;
+}
+
+.section_subtitle_2 {
+    white-space: pre-line;
+    color: #aca496;
+    margin-left: 32.5%;
+}
+
+.section_title {
+    white-space: pre-line;
+    margin-left: 43.5%;
+    margin-top: 5%;
+    color: darkgoldenrod;
+    position: absolute;
+}
+
+.team_item:hover h3 {
+    color: goldenrod;
+}
+
+.team_info {
+    display: block;
+    margin-bottom: 13.5%;
+    margin-top: 10%;
+}
+
+#light.team_info p {
+    color: black;
+    font-style: italic;
+    margin-top: 2.5%;
+}
+
+#dark.team_info p {
+    color: white;
+    font-style: italic;
+    margin-top: 2.5%;
+}
+
+#light.team_info:hover p {
+    color: #aca496;
+}
+
+#dark.team_info:hover p {
+    color: black;
+}
+
+.team_info::after {
+    background: black;
+    background: -webkit-linear-gradient(135deg, goldenrod 0%, darkgoldenrod 100%);
+    background: -o-linear-gradient(135deg, goldenrod 0%, darkgoldenrod 100%);
+    background: -moz-linear-gradient(135deg, goldenrod 0%, darkgoldenrod 100%);
+    background: linear-gradient(135deg, goldenrod 0%, darkgoldenrod 100%);
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 50px;
+    height: 3px;
+    margin-top: 10px;
+}
+
+ul.team_icon {
+    margin-top: 39%;
+    margin-bottom: 4%;
+}
+
+ul.team_icon li {
+    display: inline-block;
+    margin: 0 3px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+ul.team_icon li a {
+    margin: 0;
+    display: inline-block;
+    padding: 5px 5px;
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+}
+
+ul#light.team_icon li a.about_instagram {
+    background-color: #aca496;
+}
+
+ul#light.team_icon li a.about_github {
+    background-color: #aca496;
+}
+
+ul#light.team_icon li a.about_linkedin {
+    background-color: #aca496;
+}
+
+ul#dark.team_icon li a.about_instagram {
+    background-color: white;
+}
+
+ul#dark.team_icon li a.about_github {
+    background-color: white;
+}
+
+ul#dark.team_icon li a.about_linkedin {
+    background-color: white;
+}
+
+.team_icon li a:hover {
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+#light.more_info {
+    color: #59594F;
+    text-decoration: none;
+    border-bottom: 2px solid goldenrod;
+}
+
+#dark.more_info {
+    color: whitesmoke;
+    text-decoration: none;
+    border-bottom: 2px solid goldenrod;
+}
+
+#light.more_info:hover {
+    color: goldenrod;
+    border-bottom: transparent;
+}
+
+#dark.more_info:hover {
+    color: goldenrod;
+    border-bottom: transparent;
+}
+
+#light.back_button {
+    cursor: pointer;
+    border-radius: 8px;
+    background: white;
+    color: darkgoldenrod;
+    border-bottom: none;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 38px;
+    margin-left: 29.5%;
+    margin-top: 39%;
+    position: absolute;
+    width: 8%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#light.back_button:hover {
+    background: #bababa;
+}
+
+#dark.back_button {
+    cursor: pointer;
+    border-radius: 8px;
+    background: #59594F;
+    color: darkgoldenrod;
+    border-bottom: none;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 38px;
+    margin-left: 29.5%;
+    margin-top: 39%;
+    position: absolute;
+    width: 8%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#dark.back_button:hover {
+    background: #aca496;
+}
